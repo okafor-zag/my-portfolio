@@ -2,7 +2,7 @@
     padding-left: 100px;
     padding-right: 50px;
     width: calc(100% - 150px);
-    position: initial;
+    position: static;
     height: 100%;
     overflow: auto;
 
@@ -10,7 +10,7 @@
         margin-left: 100px;
         margin-top: 100px;
     }
-
+    
     .images-container{
         display: flex;
         gap: 15px;
@@ -24,8 +24,9 @@
         flex: 1 1 20%;
         height: 400px;
         overflow: hidden;
-        border-radius: 10px;
+        border-radius: 0;
         min-width: calc(25% - 10px);
+        padding: 0;
 
         .portfolio-image{
             z-index: 2;
@@ -112,7 +113,20 @@
     }
 }
 
-@media screen and (max-width: 1200px){
+// @media screen and (max-width: 1200px) {
+//     .container.portfolio-page{
+//         width: 100%;
+//         padding: 20px;
+//         box-sizing: border-box;
+
+//         h1.page-title{
+//             margin-left: 20px;
+//             margin-top: 20px;
+//         }
+//     }
+// }
+
+@media screen and (max-width: 1200px) and (min-width: 501px){
     .container.portfolio-page{
         width: 100%;
         padding: 20px;
@@ -123,9 +137,41 @@
             margin-top: 20px;
         }
 
+        .images-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
         .image-box{
-            height: 200px;
-            max-width: calc(50% - 10px);
+            height: 250px;
         }
     }
+}
+
+@media screen and (max-width: 500px) {
+    .container.portfolio-page{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        h1.page-title{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .images-container{
+            display: block;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+            margin-top: 100px;
+        }
+
+        .image-box {
+            height: 300px;
+            margin: 5px;
+        }
+    } 
+    
+  
 }

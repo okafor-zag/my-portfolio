@@ -68,9 +68,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          I would love to hear from you! Whether you have a project in mind, need a consultation, or just want to say hello, feel free to reach out. Let's collaborate and create something amazing together!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -79,7 +77,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter ypur fullname"
+                    placeholder="Enter your fullname"
                     required
                   />
                 </li>
@@ -87,7 +85,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter ypur email adress"
+                    placeholder="Enter your email adress"
                     required
                   />
                 </li>

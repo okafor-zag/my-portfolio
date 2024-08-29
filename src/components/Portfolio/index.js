@@ -3,7 +3,9 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss"
 import portfolioData from "../../data/portfolio.json"
+
 import { useEffect } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -22,7 +24,7 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return(
                             <div className="image-box" key={idx}>
-                                <img src={port.cover} className="portfolio-image" alt="portfolio" />
+                                <LazyLoadImage src={ process.env.PUBLIC_URL + port.cover} className="portfolio-image" alt="portfolio" />
                                 <div className="content">
                                     <p className="title">
                                         {port.title}

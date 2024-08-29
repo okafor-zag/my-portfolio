@@ -1,28 +1,76 @@
 {
     "portfolio":[
         {
-            "cover":"/portfolio/1/one.png.jpg",
-            "title":"First form built",
-            "description": "Html, css, javaScript, react.js",
-            "url": "http://google.com"
+            "cover":"/portfolio/1/one.png",
+            "title":"First form built ",
+            "description": "built with Html, css, javaScript. This is the first form i bult using codepen",
+            "url": "https://codepen.io/johnsoncode/full/MWmOXPY"
         },
         {
-            "cover":"/portfolio/1/one.png.jpg",
-            "title":"First form built",
-            "description": "Html, css, javaScript, react.js",
-            "url": "http://google.com"
+            "cover":"/portfolio/1/two.png",
+            "title":"Eazyking welcome form",
+            "description": "Built with React.js eazy king is a company form i built for Eazyride company ",
+            "url": "https://eazy-king-project.vercel.app/"
         },
         {
-            "cover":"/portfolio/1/one.png.jpg",
-            "title":"First form built",
-            "description": "Html, css, javaScript, react.js",
-            "url": "http://google.com"
+            "cover":"/portfolio/1/three.png",
+            "title":"Identfing your phone carrier",
+            "description": " Built with simple Html, css, javaScript, It was a project inspired by altschool africa",
+            "url": "https://okafor-zag.github.io/Altschoolproject.io/index.html/index.html#"
         },
         {
-            "cover":"/portfolio/1/one.png.jpg",
-            "title":"First form built",
-            "description": "Html, css, javaScript, react.js",
-            "url": "http://google.com"
+            "cover":"/portfolio/1/four.png",
+            "title":"Counter App",
+            "description": "Built with Vue.js, the counter app is said to increase, decrease reset, and set value to a counter",
+            "url": "https://altschool-exam-3.netlify.app/"
+        },
+        {
+            "cover":"/portfolio/1/six.png",
+            "title":"Restursant Website",
+            "description": "Built with simple HTML, CSS & JavaScript,, the resturant app is said to display the simple content of a resturant, not mobile responsive but can be if necessary",
+            "url": "https://okafor-zag.github.io/john.resturant/"
+        },
+        {
+            "cover":"/portfolio/1/five.png",
+            "title":"My First Portfolio",
+            "description": "Built with simple HTML, CSS & JavaScript, this is my first portfolio & very highly functional",
+            "url": "https://okafor-zag.github.io/AltschoolAfricaassignment/"
+        },
+        {
+            "cover":"/portfolio/1/eight.png",
+            "title":"Simple Login Page",
+            "description": "Built with simple HTML, CSS & JavaScript,, the login page is said to display the login inputs on the console.log",
+            "url": "https://okafor-zag.github.io/my.first.login/"
+        },
+        {
+            "cover":"/portfolio/1/seven.png",
+            "title":"Fully Functional Login Page",
+            "description": "Built with React.js,, the login page is said to display the login inputs and also perform the login function as well as full detailed errors and complete validation",
+            "url": "https://complete-functional-login-page.netlify.app/"
+        },
+        {
+            "cover":"/portfolio/1/nine.png",
+            "title":"Portfolio Wordpress Demo Website",
+            "description": "Built with XAMP and WORDPRESS is a demo website to test my ability to design on wordpress",
+            "url": "https://portfolio-demo-wordpress.netlify.app/"
+        },
+        {
+            "cover":"/portfolio/1/ten.png",
+            "title":"Nigerian poetry",
+            "description": "Built with XAMP and WORDPRESS is website built by myself and Ideastosite",
+            "url":"https://nigerianpoetry.com/"
+        },
+        {
+            "cover":"/portfolio/1/eleven.png",
+            "title":"ETM Consultant",
+            "description": "Built with XAMP and WORDPRESS is a demo website to test my ability to design on wordpress",
+            "url": "https://etmconsults.com/"
+        },
+        {
+            "cover":"/portfolio/1/twelve.png",
+            "title":"Joe Strategies",
+            "description": "Built with XAMP and WORDPRESS is a Digital security and solutions company",
+            "url": "https://joestrategies.com/"
         }
     ]
 }

@@ -29,10 +29,6 @@
     
   }
   
-  // .svg-container {
-  //   stroke: #ffd700;
-  //   stroke-width: 10;
-  // }
 
   @media screen and (max-width: 1200px){
     .logo-container{
@@ -47,8 +43,10 @@
         right: auto;
         bottom: auto;
         left: -80%;
+        // bottom: 80px;
         margin: auto;
         width: 300px;
+        margin-bottom: 300px;
       }
     }
   }
